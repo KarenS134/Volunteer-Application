@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="424.0" prefWidth="592.0" style="-fx-background-color: #EDEADE;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.volunteerapplication.HelloController">
+   <children>
+      <ScrollPane prefHeight="423.0" prefWidth="592.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="426.0" prefWidth="598.0" style="-fx-background-color: #EDEADE;">
+               <children>
+                  <VBox layoutX="12.0" layoutY="6.0" prefHeight="151.0" prefWidth="562.0" style="-fx-background-color: #2E8B57;">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="220.0" text=" Map Directions">
+                           <font>
+                              <Font name="Bodoni 72 Book" size="35.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" green="0.8500000238418579" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <Line endX="447.64385986328125" endY="4.589557647705078E-6" startX="-100.0" stroke="#b5b5b5" />
+                        <Label alignment="TOP_LEFT" prefHeight="102.0" prefWidth="602.0" text="This here is supposed to help you understand the layout of our great &#10;National Park! You can see where your next hike of  will take place and &#10;even where you can take a break and relax from all the climbing and &#10;sightseeing!&#10;">
+                           <VBox.margin>
+                              <Insets left="5.0" />
+                           </VBox.margin>
+                           <font>
+                              <Font name="SansSerif Regular" size="16.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="1.0" green="0.8500000238418579" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView accessibleHelp="A cartooon map with trails showing the surrounding of the national park" accessibleText="A cartooon map with trails showing the surrounding of the national park" fitHeight="252.0" fitWidth="561.0" layoutX="14.0" layoutY="162.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/istockphoto-1316963432-612x612.jpg" />
+         </image></ImageView>
+      <ComboBox fx:id="positions" disable="true" layoutX="543.0" layoutY="372.0" prefHeight="1.0" prefWidth="24.0" visible="false" />
+   </children>
+</AnchorPane>

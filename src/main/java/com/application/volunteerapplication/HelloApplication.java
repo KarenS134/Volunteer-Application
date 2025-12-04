@@ -1,0 +1,23 @@
+package com.application.volunteerapplication;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+
+
+public class HelloApplication extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        Stage stage1 = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Home.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        stage.sizeToScene();
+        stage.setTitle("National Park");
+        stage.setScene(scene);
+        stage.show();
+    }
+}

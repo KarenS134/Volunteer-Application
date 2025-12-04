@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EDEADE;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.volunteerapplication.HelloController">
+   <children>
+      <ComboBox fx:id="positions" disable="true" layoutX="550.0" layoutY="373.0" prefHeight="22.0" prefWidth="3.0" visible="false" />
+      <VBox layoutX="28.0" layoutY="13.0" prefHeight="375.0" prefWidth="545.0" style="-fx-background-color: white;">
+         <children>
+            <Label accessibleText="A label that says &quot;Local Events&quot; the header for this homepage" prefHeight="48.0" prefWidth="220.0" text="Local Events">
+               <font>
+                  <Font name="Bodoni 72 Book" size="35.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color green="0.32549020648002625" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9766942216402028">
+                           <color>
+                              <Color red="0.8552631735801697" green="0.8394249677658081" blue="0.8394249677658081" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.9098039269447327" green="0.9098039269447327" blue="0.9098039269447327" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label accessibleText="Telling how this National Park has many events for everyone and has a very open arms community willing to take anybody in!" alignment="TOP_LEFT" prefHeight="102.0" prefWidth="602.0" text="Many events take place in this National Park! So you can always be &#10;sharing a wonderful moment with fellow peers. Don't forget our&#10;helpful community to make it all possible!&#10;">
+               <font>
+                  <Font name="SansSerif Regular" size="16.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color green="0.32549020648002625" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.912751677852349">
+                           <color>
+                              <Color red="0.22368420660495758" green="0.2185063362121582" blue="0.2185063362121582" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.9098039269447327" green="0.9098039269447327" blue="0.9098039269447327" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label accessibleText="Explaining the events that are possible as well as the time and location (Events taking place on 20/12 :Hiking (8am - 10am)                           Location: Near HomebaseSightseeing (11:30am - 1:45pm)        Location: Haunted TrailKayaking (2pm - 4pm)                        Location: Lazy River" alignment="TOP_LEFT" prefHeight="98.0" prefWidth="545.0" text="Events taking place on 20/12 :&#10;Hiking (8am - 10am)                           Location: Near Homebase&#10;Sightseeing (11:30am - 1:45pm)        Location: Haunted Trail&#10;Kayaking (2pm - 4pm)                        Location: Lazy River">
+               <font>
+                  <Font name="SansSerif Regular" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

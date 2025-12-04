@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1002.0" prefWidth="1334.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.volunteerapplication.HelloController">
+   <stylesheets> </stylesheets>
+    <children>
+      <ScrollPane layoutX="-37.0" layoutY="-53.0" prefHeight="980.0" prefWidth="1374.0">
+         <content>
+            <ScrollPane>
+               <content>
+                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="1429.0" prefWidth="1325.0" style="-fx-background-color: #EDEADE;">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55cd9f" height="88.0" layoutX="44.0" layoutY="239.0" opacity="0.3" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="246.0">
+                           <effect>
+                              <BoxBlur height="20.09" width="98.54" />
+                           </effect>
+                        </Rectangle>
+                        <VBox layoutX="461.0" layoutY="332.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="523.0" prefWidth="410.0" style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #afd6c0; -fx-border-width: 2px;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="393.0" text="Volunteer Now!">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Line endX="304.29290771484375" endY="1.6033649444580078E-5" startX="-100.0" stroke="#aea8a8" />
+                              <ImageView fitHeight="229.0" fitWidth="366.0" pickOnBounds="true" preserveRatio="true">
+                                 <VBox.margin>
+                                    <Insets left="25.0" top="15.0" />
+                                 </VBox.margin>
+                                 <image>
+                                    <Image url="@../../../Images/41477_2019_374_Figa_HTML.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="99.0" prefWidth="401.0" text=" Lots of positions to help volunteer and &#10;join us!" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="25.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="15.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="68.0" prefWidth="373.0" style="-fx-background-radius: 150px; -fx-background-color: #baffc9;" text="Application">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="15.0" left="10.0" top="30.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                           <effect>
+                              <DropShadow height="20.0" radius="9.5" width="20.0">
+                                 <color>
+                                    <Color red="0.5647059082984924" green="0.5647059082984924" blue="0.5647059082984924" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </VBox>
+                        <Circle fill="#ff8b94" layoutX="1268.0" layoutY="279.0" opacity="0.3" radius="83.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                           <effect>
+                              <BoxBlur height="32.16" width="65.36" />
+                           </effect>
+                        </Circle>
+                        <Circle fill="DODGERBLUE" layoutX="107.0" layoutY="924.0" opacity="0.3" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                           <effect>
+                              <BoxBlur height="80.44" width="80.44" />
+                           </effect>
+                        </Circle>
+                        <Circle fill="#b8d8be" layoutX="1215.0" layoutY="281.0" opacity="0.3" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                           <effect>
+                              <BoxBlur height="77.43" width="32.16" />
+                           </effect>
+                        </Circle>
+                        <VBox layoutX="886.0" layoutY="335.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="523.0" prefWidth="410.0" style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #1b85b8; -fx-border-width: 2px;">
+                           <effect>
+                              <DropShadow height="20.0" radius="9.5" width="20.0">
+                                 <color>
+                                    <Color red="0.5647059082984924" green="0.5647059082984924" blue="0.5647059082984924" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                           <children>
+                              <Label alignment="CENTER" prefHeight="26.0" prefWidth="412.0" text="Events">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Line endX="304.29290771484375" endY="1.6033649444580078E-5" startX="-100.0" stroke="#aea8a8" />
+                              <ImageView fitHeight="273.0" fitWidth="206.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/6784ee89-fb54-4c5f-b065-b98c8b3da206.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="100.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <Label alignment="CENTER" prefHeight="90.0" prefWidth="404.0" text="Lots of Events to participate in so&#10; just come and relax on your day off!">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" onAction="#onEventButtonClick" prefHeight="75.0" prefWidth="387.0" style="-fx-background-color: #bae1ff; -fx-background-radius: 150px;" text="Events">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="15.0" left="10.0" top="30.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a49df2" height="88.0" layoutX="44.0" layoutY="276.0" opacity="0.3" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="246.0">
+                           <effect>
+                              <BoxBlur height="140.8" width="122.69" />
+                           </effect>
+                        </Rectangle>
+                        <VBox fx:id="targetAction" layoutX="73.0" layoutY="331.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="529.0" prefWidth="374.0" style="-fx-background-color: white; -fx-background-radius: 5px; -fx-border-color: #ff8b94; -fx-border-width: 2px;">
+                           <effect>
+                              <DropShadow height="20.0" radius="9.5" width="20.0">
+                                 <color>
+                                    <Color red="0.5647059082984924" green="0.5647059082984924" blue="0.5647059082984924" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                           <children>
+                              <Line endX="267.60223388671875" endY="-0.0011587142944335938" startX="-100.0" stroke="#aea8a8" />
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="41.0" prefWidth="370.0" text="Map">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Line endX="268.29290771484375" endY="0.7929237484931946" startX="-100.0" stroke="#aea8a8" />
+                              <ImageView fitHeight="269.0" fitWidth="369.0" pickOnBounds="true">
+                                 <image>
+                                    <Image url="@../../../Images/1000_F_182410090_u28pNa09PcegnESG1HMabetiQGKrlAOV.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="371.0" text="A roadmap to not get lost!">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onMapButtonClick" prefHeight="75.0" prefWidth="348.0" style="-fx-background-color: #ffb3ba; -fx-background-radius: 150px;" text="Map">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="15.0" left="10.0" top="30.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <Circle fill="#ff8b94" layoutX="650.0" layoutY="181.0" opacity="0.3" radius="146.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                           <effect>
+                              <BoxBlur height="95.53" width="38.2" />
+                           </effect>
+                        </Circle>
+                        <HBox layoutX="69.0" layoutY="119.0" prefHeight="101.0" prefWidth="1227.0" style="-fx-background-color: white; -fx-background-radius: 10px;">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="262.0" text="National Park">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="500.0" />
+                                 </HBox.margin>
+                                 <graphic>
+                                    <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="262.0" text="Home" visible="false" />
+                                 </graphic>
+                              </Label>
+                              <Button mnemonicParsing="false" onAction="#onMapButtonClick" style="-fx-background-color: white;" text="Map">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="20.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#onEventButtonClick" prefHeight="68.0" prefWidth="136.0" style="-fx-background-color: white;" text="Events">
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                              </Button>
+                              <MenuButton mnemonicParsing="false" prefHeight="58.0" prefWidth="193.0" style="-fx-background-color: white;" text="Menu">
+                                <items>
+                                  <MenuItem mnemonicParsing="false" onAction="#onHelloButtonClick" text="Home" />
+                                  <MenuItem mnemonicParsing="false" onAction="#onMapButtonClick" text="Map" />
+                                    <MenuItem mnemonicParsing="false" onAction="#onEventButtonClick" text="Events" />
+                                </items>
+                                 <font>
+                                    <Font name="Bodoni 72 Book" size="35.0" />
+                                 </font>
+                              </MenuButton>
+                           </children>
+                           <padding>
+                              <Insets bottom="25.0" top="25.0" />
+                           </padding>
+                           <effect>
+                              <DropShadow height="20.31" radius="9.7375" width="20.64">
+                                 <color>
+                                    <Color red="0.5647059082984924" green="0.5647059082984924" blue="0.5647059082984924" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </HBox>
+                        <ComboBox fx:id="positions" disable="true" layoutX="297.0" layoutY="263.0" onAction="#onHelloButtonClick" prefWidth="150.0" visible="false" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
