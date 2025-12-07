@@ -18,6 +18,20 @@ outdoors/nature experience.
  
  **Link to balboa** https://balboapark.org/
 
+ ## UML Diagram
+
+ <img width="1280" height="832" alt="Screenshot 2025-12-07 at 9 36 19 AM" src="https://github.com/user-attachments/assets/b3cb307c-7502-4a97-b783-a4834334bff0" />
+
+<img width="1280" height="832" alt="Screenshot 2025-12-07 at 9 14 51 AM" src="https://github.com/user-attachments/assets/55d0b672-d38d-46ef-9ab2-4bf024268ade" />
+
+## Demo
+
+
+
+
+![Screen Recording 2025-12-07 at 9 55 25 AM](https://github.com/user-attachments/assets/66f7d6c4-4c39-49c0-b547-4f39f0f1ddc8)
+
+
 
 ## Lessons Learned
 
