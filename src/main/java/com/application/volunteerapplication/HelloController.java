@@ -85,7 +85,7 @@ public class HelloController implements Initializable{
     @FXML
     protected void onSubmitButtonClick(Event event) throws IOException {
         Node source = (Node) event.getSource();
-        Stage stage = new Stage();
+        Stage stage = (Stage) source.getScene().getWindow();
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Submit.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.sizeToScene();
