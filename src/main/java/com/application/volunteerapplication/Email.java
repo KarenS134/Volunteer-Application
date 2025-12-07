@@ -3,6 +3,9 @@ import javafx.fxml.FXML;
 
 import java.util.Scanner;
 
+/**
+ * @KarenS
+ */
 
 public class Email {
 
