@@ -20,6 +20,17 @@ outdoors/nature experience.
 
  ## UML Diagram
 
+ ```mermaid
+ classDiagram
+    class Email {
+        +Scanner input
+        +String email
+        +void main(String[] args)
+        +static boolean isValidEmail(String email)
+        +static boolean isSpecialCharacter(char ch)
+    }
+ ```
+
  <img width="1280" height="832" alt="Screenshot 2025-12-07 at 9 36 19 AM" src="https://github.com/user-attachments/assets/b3cb307c-7502-4a97-b783-a4834334bff0" />
 
 <img width="1280" height="832" alt="Screenshot 2025-12-07 at 9 14 51 AM" src="https://github.com/user-attachments/assets/55d0b672-d38d-46ef-9ab2-4bf024268ade" />
