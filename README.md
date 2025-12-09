@@ -24,6 +24,11 @@ outdoors/nature experience.
 
 <img width="1280" height="832" alt="Screenshot 2025-12-07 at 9 14 51 AM" src="https://github.com/user-attachments/assets/55d0b672-d38d-46ef-9ab2-4bf024268ade" />
 
+## WireFrame
+
+<img width="1280" height="832" alt="Screenshot 2025-12-07 at 9 17 30 AM" src="https://github.com/user-attachments/assets/27b2698b-d451-44ef-b943-f2ef9600bdc1" />
+
+
 ## Demo
 
 
